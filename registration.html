@@ -1,0 +1,106 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Register for Campus Connect College Club">
+    <title>Campus Connect | Registration</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2>Campus Connect</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="registration.html" class="active">Registration</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-container">
+    <section class="form-section">
+        <h1>Student Registration Form</h1>
+        <p>Fill out the form below to become a member of our club.</p>
+
+        <form action="#" method="post" enctype="multipart/form-data">
+
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"
+                   placeholder="Create a password" required minlength="8">
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age"
+                   min="16" max="100" required>
+
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone"
+                   placeholder="Enter phone number">
+
+            <label for="website">Portfolio Website:</label>
+            <input type="url" id="website" name="website"
+                   placeholder="https://example.com">
+
+            <label for="time">Preferred Meeting Time:</label>
+            <input type="time" id="time" name="time">
+
+            <label>Gender:</label>
+            <div class="option-group">
+                <label><input type="radio" name="gender" value="Male"> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+            </div>
+
+            <label>Interests:</label>
+            <div class="option-group">
+                <label><input type="checkbox" name="interest" value="Coding"> Coding</label>
+                <label><input type="checkbox" name="interest" value="Sports"> Sports</label>
+                <label><input type="checkbox" name="interest" value="Music"> Music</label>
+                <label><input type="checkbox" name="interest" value="Art"> Art</label>
+            </div>
+
+            <label for="department">Select Department:</label>
+            <select id="department" name="department" required>
+                <option value="">-- Select Department --</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Commerce">Commerce</option>
+                <option value="Science">Science</option>
+                <option value="Arts">Arts</option>
+            </select>
+
+            <label for="reason">Why do you want to join?</label>
+            <textarea id="reason" name="reason" rows="4"
+                      placeholder="Write your reason here..."></textarea>
+
+            <label for="resume">Upload Your Resume:</label>
+            <input type="file" id="resume" name="resume"
+                   accept=".pdf,.doc,.docx">
+
+            <button type="submit" class="btn">Submit Registration</button>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Campus Connect College Club. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>

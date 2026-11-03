@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Campus Connect College Club">
+    <title>Campus Connect | Contact</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h2>Campus Connect</h2>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="page-container">
+    <section class="contact-section">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you!</p>
+
+        <div class="contact-info">
+            <h3>Email</h3>
+            <p>campusconnect@example.com</p>
+
+            <h3>Phone</h3>
+            <p>+91 9876543210</p>
+
+            <h3>Address</h3>
+            <p>College Campus, Main Road, India</p>
+        </div>
+
+        <h2>Send Us a Message</h2>
+
+        <form action="#" method="post">
+
+            <label for="contact-name">Your Name:</label>
+            <input type="text" id="contact-name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="contact-email">Your Email:</label>
+            <input type="email" id="contact-email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="subject">Subject:</label>
+            <input type="text" id="subject" name="subject"
+                   placeholder="Enter subject" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5"
+                      placeholder="Write your message..." required></textarea>
+
+            <button type="submit" class="btn">Send Message</button>
+
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Campus Connect College Club. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
