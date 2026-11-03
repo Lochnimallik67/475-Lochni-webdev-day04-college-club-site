@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # Campus Connect College Club
 
@@ -73,6 +73,8 @@ college-club-site/
 2. Open the project folder in VS Code.
 3. Open index.html using Live Server.
 4. Navigate through all four pages.
+## project screenshot
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c6e7615d-3176-4791-a4f5-68305270540c" />
 
 ## Important Note
 
@@ -81,8 +83,7 @@ Forms use action="#" and do not store or send
 submitted information to a server.
 
 ## Author
-
-Your Name
+lochni mallik
 
 ## License
 
