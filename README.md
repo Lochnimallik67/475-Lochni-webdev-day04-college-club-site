@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # Campus Connect College Club
 
@@ -86,3 +87,6 @@ Your Name
 ## License
 
 Created for educational purposes.
+=======
+# 475-Lochni-webdev-day04-college-club-site
+>>>>>>> 6506e34b2d94d8d7e4cde843439167fd21c292ab
